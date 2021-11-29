@@ -8,7 +8,7 @@ import sys
 from tqdm import tqdm
 from typing import List
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 package_name = "bayfile"
 url = 'https://api.bayfiles.com/upload'
 

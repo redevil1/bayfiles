@@ -8,7 +8,7 @@ setuptools.setup(
     name="bayfile",
     version=__version__,
     author="Jak Bin",
-    description="upload and download to anonfile server",
+    description="upload and download to bayfile server",
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/redevil1/bayfiles",
@@ -23,7 +23,7 @@ setuptools.setup(
         "Natural Language :: English",
         "Operating System :: OS Independent",
     ],
-    keywords='bayfiles,bayfiles-api,bayfiles-cli,anonymous,upload',
+    keywords='bayfiles,bayfiles-api,bayfiles-cli,anonymous,upload,anonfile,anonfile-api,anonfile-cli',
     packages=["bayfile"],
     entry_points={
         "console_scripts":[

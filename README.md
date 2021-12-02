@@ -21,3 +21,14 @@ pip3 install bayfile
 bayfile up {path-to-file_1} {path-to-file _2} ...  # upload file to bayfiles server
 bayfile d {url1} {url2} ...              # download file 
 ```
+# API
+
+The bayfile client is also usable through an API (for test integration, automation, etc)
+
+### bayfile.main.upload([file_path])
+
+```py
+from bayfile import main
+
+upload([file_path])
+```
